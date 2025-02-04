@@ -1,0 +1,58 @@
+.create-race-page {
+  min-height: 100vh;          /* let it fill the screen */
+  display: flex;
+  flex-direction: column;     /* stack nav and auth vertically */
+  align-items: center;        /* center horizontally */
+  justify-content: flex-start; /* top alignment by default */
+  padding-top: 30px;          /* add some top spacing */
+  background-image: url("/images/background2.png");
+  background-repeat: no-repeat;
+  color: #edb022;
+  background-size: cover;
+  }
+  
+  .create-race-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .create-race-form label {
+    font-weight: bold;
+  }
+  
+  .create-race-form input,
+  .create-race-form textarea,
+  .create-race-form select {
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  .invite-code-section {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .invite-code-gen {
+    display: flex;
+    gap: 10px;
+    
+  }
+  
+  .submit-button {
+    padding: 10px;
+    background: #997113;
+    color: #edb022;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  
+  }
+  
+
+  .cancel{
+    margin-top: 5px;
+    background: #997113;
+    color:#edb022;
+  }

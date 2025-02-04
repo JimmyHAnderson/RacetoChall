@@ -1,0 +1,66 @@
+.join-race-container {
+  min-height: 100vh;          /* let it fill the screen */
+  display: flex;
+  flex-direction: column;     /* stack nav and auth vertically */
+  align-items: center;        /* center horizontally */
+  justify-content: flex-start; /* top alignment by default */
+  padding-top: 30px;          /* add some top spacing */
+  background-image: url("/images/background2.png");
+  background-repeat: no-repeat;
+  color: #edb022;
+  background-size: cover;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  .invite-label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-align: left;
+  }
+  
+  .invite-textarea {
+    width: 100%;
+    height: 20px;
+    padding: 8px;
+    resize: none;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-family: inherit;
+  }
+  
+  .buttons-container {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+  }
+  
+  .join-button,
+  .back-button {
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .join-button {
+    background: #997113; 
+  
+    color:#edb022;
+  }
+  
+  .back-button {
+    background: #997113; 
+    color:#edb022;
+  }
+  
+
+  .h1{
+    font-size: 50px;
+  }
