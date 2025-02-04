@@ -3,7 +3,7 @@ from flask import Flask, request, jsonify
 
 app = Flask(__name__)
 # Set Riot API key
-cass.set_riot_api_key("RGAPI-d95ae39a-2326-4d12-8a0a-77255cf5ccab")
+cass.set_riot_api_key("INSERT KEY")
 # Mock leaderboard storage
 leaderboard = []
 
